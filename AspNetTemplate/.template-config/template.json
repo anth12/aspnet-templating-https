@@ -1,0 +1,56 @@
+{
+    "$schema": "https://json.schemastore.org/template",
+    "author": "FatMedia",
+    "classifications": [ 
+      "Web"
+    ],
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },  
+    "identity": "AspNetTemplate",  
+    "name": "Asp.net https deom",
+    "shortName": "mvc-https-demo",  
+    "sourceName": "AspNetTemplate",  
+    "sources": [
+      {
+        "exclude": [
+          "**/.vs/**",
+          "**/[Bb]in/**",
+          "**/[Oo]bj/**",
+          "**/packages/**",
+          "**/.template-config/**",
+          "**/*.user"
+        ]
+      }
+    ],  
+    "preferNameDirectory": true,  
+    "symbols": {
+      "webGuid" : {
+        "type": "generated",
+        "generator": "guid",
+        "replaces": "52F7BDD6-3D3E-4061-BEFB-C183A9137E86",
+        "parameters": {
+          "format": "D"
+        }
+     },
+     "sitePort" : {
+        "type" : "generated",
+        "generator": "random",
+        "replaces": "44309",
+        "parameters": {
+          "low": 41000,
+          "high" :45999
+        }
+      },
+     "developmentServerPort" : {
+        "type" : "generated",
+        "generator": "random",
+        "replaces": "56533",
+        "parameters": {
+          "low": 51000,
+          "high" :55999
+        }
+      }
+    }  
+  }
